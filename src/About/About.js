@@ -10,6 +10,9 @@ function About() {
         <p>Abuja</p>
         <p></p>
       </section>
+      <section>
+        <img src={Logo} height="70px" width="150px" alt="Logo of Little lemon"/>
+      </section>
     </div>
   );
 }
