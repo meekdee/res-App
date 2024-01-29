@@ -14,3 +14,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     color: yellow;
 }
+
+.foodPic {
+    margin-top: 20px;
+}
