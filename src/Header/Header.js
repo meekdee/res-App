@@ -5,7 +5,7 @@ import Logo from '../image/Logo.PNG'
 
 function Header() {
   return (
-    <div>
+    <nav>
         {/* <VStack spacing={20} > */}
             <img src={Logo} height="70px" width="150px" alt="Logo of Little lemon"/>
             <a href="https://example.com" target="_blank" rel="noopener noreferrer">HOME</a>
@@ -15,7 +15,7 @@ function Header() {
             <a href="https://example.com" target="_blank" rel="noopener noreferrer">ORDER</a>
             <a href="https://example.com" target="_blank" rel="noopener noreferrer">LOGIN</a>
         {/* </VStack> */}
-    </div>
+    </nav>
   );
 }
 
