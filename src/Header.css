@@ -1,0 +1,9 @@
+.Header{
+    background-color: red;
+}
+
+a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-inline: 10px;
+}
