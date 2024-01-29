@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import Logo from './image/Logo.PNG'
+import Logo from '../image/Logo.PNG'
 // import { VStack } from "@chakra-ui/react";
 
 function Header() {
