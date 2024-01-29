@@ -4,7 +4,7 @@ import Logo from './image/Logo.PNG'
 
 function Header() {
   return (
-    <>
+    <div>
             <img src={Logo} height="50px" width="150px" alt="Logo of Little lemon"/>
             <a href="https://example.com" target="_blank" rel="noopener noreferrer">HOME</a>
             <a href="https://example.com" target="_blank" rel="noopener noreferrer">ABOUT</a>
@@ -12,7 +12,7 @@ function Header() {
             <a href="https://example.com" target="_blank" rel="noopener noreferrer">RESERVATION</a>
             <a href="https://example.com" target="_blank" rel="noopener noreferrer">ORDER</a>
             <a href="https://example.com" target="_blank" rel="noopener noreferrer">LOGIN</a>
-    </>
+    </div>
   );
 }
 
