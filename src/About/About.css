@@ -18,7 +18,7 @@ h1 {
 
 .foodPic {
     margin-top: 20px;
-    margin-bottom: -50px;
+    margin-bottom: -75px;
 }
 
 p{
@@ -26,4 +26,23 @@ p{
     font-size: 20px;
     color: white;
     margin-top: -10px;
+}
+
+.button{
+    width: 130px;
+    height: 25px;
+    background-color: yellowgreen;
+    margin-left: 200px;
+    border-radius: 10px;
+    padding: '20px',
+}
+
+.button a{
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight:bolder;
+    margin-inline: 10px;
+
 }

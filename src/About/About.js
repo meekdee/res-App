@@ -17,7 +17,7 @@ function About() {
         <img src={food} height="300px" width="250px" alt="Logo of Little lemon"/>
       </section>
       <div className="button">
-        
+      <a href="https://example.com" target="_blank" rel="noopener noreferrer">Reserve a Table</a>
       </div>
     </div>
   );
