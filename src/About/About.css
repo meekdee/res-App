@@ -1,4 +1,16 @@
 .about {
-    background-color:darkolivegreen;
+    background-color:rgb(143, 146, 138);
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+}
 
+section {
+    margin-left: 150px;
+}
+
+h1 {
+
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
 }

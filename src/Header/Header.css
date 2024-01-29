@@ -12,8 +12,9 @@ a{
 
 
 div {
-    background-color: darkgray;
+    /* background-color: darkgray; */
     margin: 20 auto;
-    padding: 5px;;
+    padding: 5px;
+    width: auto;
     /* border: 1px solid #ddd; */
   }
