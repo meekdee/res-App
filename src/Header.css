@@ -8,3 +8,10 @@ a{
     font-weight: 1000;
     margin-inline: 10px;
 }
+
+
+div {
+    margin: 20 auto;
+    padding: 5px;;
+    /* border: 1px solid #ddd; */
+  }
