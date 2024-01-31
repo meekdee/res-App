@@ -5,16 +5,33 @@
 a{
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 1.5em;
     font-weight:bolder;
-    margin-inline: 10px;
+}
+
+/* Hover state */
+a:hover {
+    color: rgba(199, 230, 24, 0.788); /* Change color when the mouse is over the link */
+}
+
+/* Active/Clicked state */
+a:active {
+    color: #f00; /* Change color when the link is being clicked */
 }
 
 
-div {
-    /* background-color: darkgray; */
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 10px;
+    align-items:center;
+    height: auto;
+    justify-content: center;
+    flex: 0 1 auto;
+
+
     margin: 20 auto;
-    padding: 5px;
+    padding: 10px;
     width: auto;
-    /* border: 1px solid #ddd; */
   }
