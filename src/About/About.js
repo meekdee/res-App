@@ -17,7 +17,7 @@ function About() {
       </div>
       </section>
       <section className="foodPic">
-        <img src={food} height="300px" width="250px" alt="Logo of Little lemon"/>
+        <img src={food} height="auto" width="250px" alt="Logo of Little lemon"/>
       </section>
     </div>
   );
