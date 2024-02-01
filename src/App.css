@@ -21,9 +21,10 @@
   /* max-width: 900px; */
   min-height: 50vh;
   grid-template-columns: 100%;
+  /* justify-content: stretch; */
 
-  height: auto;
+  height:fit-content;
   background-color:rgb(237, 245, 245);
   align-items: center;
-  width: auto;
+  width:fit-content;
 }

@@ -1,13 +1,16 @@
 .about {
-    display: flex;
+    display: grid;
+    grid-template-row: repeat(3 1fr);
     background-color:rgb(143, 146, 138);
     margin-left: 50px;
     margin-right: 50px;
     text-align: left;
 }
 
-section {
-    margin-left: 150px;
+.section1 {
+    display: grid;
+    grid-row: 1/ span 2;
+    margin-left: 100px;
 }
 
 h1 {
@@ -18,8 +21,11 @@ h1 {
 }
 
 .foodPic {
+    display: grid;
+    grid-row: 2/ span 1;
     margin-top: 20px;
-    margin-bottom: -75px;
+    margin-bottom: -20px;
+    margin-right: 100px;
 }
 
 p{
